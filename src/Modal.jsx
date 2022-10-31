@@ -10,14 +10,15 @@ function Modal(props) {
           <h2 className="modal-title">{props.name}</h2>
         </div>
         <div className="modal-body">
-        <p>{props.quote}</p>
+          <p>{props.quote}</p>
+          <p>{props.fightingStyle}</p>
         </div>
-        
+     
         <div className="modal-footer">
           <button onClick={props.onClose} className="button">Close</button>
         </div>
+       </div>
       </div>
-    </div>
   )
 
 }

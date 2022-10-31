@@ -6,14 +6,13 @@ function Image(props) {
 
   return (  
       <div className="image">
-      <img src={props.image} className="gallery-pic" alt="Avatar Character" />
-      <h3>{props.name}</h3>
-      <h4>{props.nationality}</h4>
+      <img src={props.image} className="gallery-pic" alt="Avatar Character" onClick={() => setShowModal(true)} />
       <Modal
           onClose={() => setShowModal(false)}
-          show={showModal}
-          quote={props.quote}
-          fightingStyle={props.fightingStyle}
+        show={showModal}
+        name={props.name}
+        quote={props.quote}
+        fightingStyle={props.fightingStyle}
         />
       </div>
   )
