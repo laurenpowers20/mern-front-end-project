@@ -10,8 +10,8 @@ function Modal(props) {
           <h2 className="modal-title">{props.name}</h2>
         </div>
         <div className="modal-body">
-          <p>{props.quote}</p>
-          <p>{props.fightingStyle}</p>
+          <p>"{props.quote}"</p>
+          <p className="nationality-text">{props.nationality}</p>
         </div>
      
         <div className="modal-footer">

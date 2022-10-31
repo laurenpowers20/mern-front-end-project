@@ -1,11 +1,15 @@
 import "./App.css";
 import Avatar from "./Avatar";
+import banner from "./images/avatarbanner.png";
 
 function App() {
   return (
-    <div>
-      <Avatar />
-    </div>
+    <>
+      <img src={banner} />
+      <div>
+        <Avatar />
+      </div>
+    </>
   );
 }
 

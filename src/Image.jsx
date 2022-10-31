@@ -12,7 +12,7 @@ function Image(props) {
         show={showModal}
         name={props.name}
         quote={props.quote}
-        fightingStyle={props.fightingStyle}
+        nationality={props.nationality}
         />
       </div>
   )
