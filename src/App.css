@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  /* background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+.gallery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: 5px;
+}
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header, .modal-footer {
+  padding: 10px;
+  background-color: white;
+}
+
+.modal-body {
+  padding: 10px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
