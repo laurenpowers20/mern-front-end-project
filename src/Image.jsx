@@ -8,7 +8,7 @@ function Image(props) {
       <div className="image">
       <img src={props.image} className="gallery-pic" alt="Avatar Character" onClick={() => setShowModal(true)} />
       <Modal
-          onClose={() => setShowModal(false)}
+        onClose={() => setShowModal(false)}
         show={showModal}
         name={props.name}
         quote={props.quote}

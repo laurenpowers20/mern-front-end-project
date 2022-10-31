@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  /* background: url(images/background.jpg) no-repeat center center fixed; 
+  background: url(images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .gallery {
@@ -14,10 +14,13 @@ body {
 }
 
 .image {
-  margin: 5px;
+  margin: 20px;
   cursor: pointer;
-  border-radius: 50%;
-}
+  box-shadow: 20px 18px 25px 5px rgba(0,0,0,0.75);
+  border-top: 4px solid rgba(255, 255, 255, 0.266);
+  border-left: 4px solid rgba(255, 255, 255, 0.266);
+  border-right: 4px solid rgba(255, 255, 255, 0.266);
+ }
 .modal {
   position: fixed;
   left: 0;
