@@ -11,6 +11,7 @@ function Image(props) {
         onClose={() => setShowModal(false)}
         show={showModal}
         name={props.name}
+        element={props.bendingElement}
         quote={props.quote}
         nationality={props.nationality}
         />

@@ -6,7 +6,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
+.banner {
+  margin: 10px;
+}
 .gallery {
   justify-content: center;
   display: flex;
@@ -48,4 +50,17 @@ body {
 .nationality-text{
   font-size: 20px;
   font-family: Pa;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    .banner {
+      width: 300px;
+    }
+
+    .image {
+      width: 200px;
+    }
+
+
 }

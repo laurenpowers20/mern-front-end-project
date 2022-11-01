@@ -5,7 +5,7 @@ import banner from "./images/avatarbanner.png";
 function App() {
   return (
     <>
-      <img src={banner} />
+      <img className="banner" src={banner} />
       <div>
         <Avatar />
       </div>
