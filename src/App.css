@@ -75,7 +75,8 @@ button {
 @media only screen and (max-width: 600px) { 
 
   body {
-    background-color: rgb(255, 128, 0);
+    background-image: none;
+    background-color: rgba(242, 151, 60, 0.832);
     margin: 0;
     justify-content: center;
     
