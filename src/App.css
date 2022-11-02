@@ -75,8 +75,7 @@ button {
 @media only screen and (max-width: 600px) { 
 
   body {
-    background: url(images/mobilewallpaper2.jpeg) center center fixed no-repeat;
-    background-size: cover; 
+    background: url(images/mobilewallpaper2.jpeg) center center fixed no-repeat; 
     margin: 0;
     justify-content: center;
     
