@@ -75,15 +75,22 @@ button {
 @media only screen and (max-width: 600px) { 
 
   body {
-    background: url(images/mobilewallpaper.jpeg) no-repeat center fixed;
-      background-color: rgb(215, 212, 209);
-      justify-content: center;
+    background: url(images/mobilewallpaper2.jpeg) center center fixed no-repeat;
+    background-size: cover; 
+    margin: 0;
+    justify-content: center;
+    
   }
     .banner {
-      width: 300px;
+      width: 200px;
     }
 
+  
     img {
+      width: 100px;
+    }
+
+    .image {
       width: 100px;
     }
 
